@@ -1,0 +1,35 @@
+{
+  "name": "json-partition",
+  "version": "0.0.1",
+  "description": "diff two array and partition",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattJin/json-partition.git"
+  },
+  "keywords": [
+    "diff",
+    "partition"
+  ],
+  "author": "matt jin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattJin/json-partition/issues"
+  },
+  "homepage": "https://github.com/MattJin/json-partition#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/lodash.difference": "^4.5.6",
+    "@types/lodash.isequal": "^4.5.5",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "lodash.difference": "^4.5.0",
+    "lodash.isequal": "^4.5.0"
+  }
+}
